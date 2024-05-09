@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  border: 5px solid #c983c6;
+  padding: 25px;
+  background-color: pink;
+}
+
+.hello {
+  border-radius: 100%;
+}
+
+a:hover {
+  background-color: #ff007b;
+}
+
+a:link {
+  color: #6d3740;
+
+}
+
+a:visited {
+  color: #7676ad;
+}
+
+a {
+  font-family: monospace;
+}
+
+body {
+  background-color: lightpink;
+  text-align: center;
+}
+
+.patrick {
+  width: 700px;
+  height: 600px;
+  mask:
+    radial-gradient(at 70% 31%, #000 29%, #0000 30%),
+    radial-gradient(at 30% 31%, #000 29%, #0000 30%),
+    linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
+
+.header {
+  font-size: 50px;
+  color: #ff007b;
+  font-family: monospace;
+  text-align: center;
+}
+
+.hail {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.sellers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one {
+  flex: 1;
+  border: 5px #ce5569 solid;
+
+}
+
+.two {
+  border: 5px #ce5569 solid;
+  flex: 1;
+
+}
+
+.three {
+  border: 5px #ce5569 solid;
+  flex: 1;
+}
+
+button {
+  background-color: #a90454;
+  border: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: monospace;
+  margin: 40px 2px;
+  border-radius: 40px;
+}
+
+.baka {
+  text-align: left;
+}
+
+.lol {
+  font-size: 50px;
+  color: #ff007b;
+  font-family: monospace;
+}
+
+.cuz {
+  font-family: Cambria;
+  color: #7676ad;
+}
